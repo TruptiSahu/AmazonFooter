@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --primary-color: rgb(114, 137, 218);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #DDD;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: #2c2c2c;
+  margin-top: 50px;
+}
+
+.title img {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.title p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.footer {
+  width: 100%;
+  background: #232F3E;
+}
+
+.back-to-top {
+  background: #34445c;
+  text-align: center;
+  font-size: 13px;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 45px 0;
+}
+
+.inner-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-footer .col li {
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.inner-footer .col li:hover {
+  text-decoration: underline;
+}
+
+.inner-footer .col h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.inner-footer .col li {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.inner-footer .col li {
+  margin-bottom: 12px;
+}
+
+.inner-footer .col h2 {
+  margin-bottom: 15px;
+}
+
+.footer__bottom {
+  border-top: 1px solid #3a4553;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__bottom img {
+  width: 80px;
+}
+
+
+.footer__btn {
+  border: 1px solid #848688;
+  outline: none;
+  background: none;
+  border-radius: 3px;
+  padding: 8px 16px 8px 6px;
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-lang {
+  width: 100px;
+  margin-left: 80px;
+}
+
+.footer__btn img {
+  width: 15px;
+  margin-right: 10px;
+}
